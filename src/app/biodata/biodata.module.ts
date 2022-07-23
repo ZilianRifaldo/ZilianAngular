@@ -3,15 +3,19 @@ import { CommonModule } from '@angular/common';
 
 import { BiodataRoutingModule } from './biodata-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CreateComponent } from './create/create.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    DashboardComponent
+    DashboardComponent,
+    CreateComponent
   ],
   imports: [
     CommonModule,
-    BiodataRoutingModule
+    BiodataRoutingModule,
+    FormsModule
   ]
 })
 export class BiodataModule { }

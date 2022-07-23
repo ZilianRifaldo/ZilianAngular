@@ -1,10 +1,10 @@
 {
-  "biodata":[
+  "biodata": [
     {
-      "id":1,
-      "name":"Zilian",
-      "umur":22,
-      "tinggi":150
+      "id": 1,
+      "name": "Zilian",
+      "umur": 22,
+      "tinggi": 150
     }
   ]
 }
